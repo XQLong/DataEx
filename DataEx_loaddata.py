@@ -13,7 +13,8 @@ def main():
     print(data.head())
     print(data.describe())
     # Scatter Plot Matrix
-    # scatter_matrix(data)
-    # plt.show()
+    scatter_matrix(data)
+    plt.show()
+
 if __name__ == '__main__':
     main()
